@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class Topic_01_Environment {
+public class Topic_02_Environment {
     WebDriver driver;
 
     @Test

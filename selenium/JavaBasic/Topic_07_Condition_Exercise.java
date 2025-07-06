@@ -1,14 +1,16 @@
-package webdriver;
+package JavaBasic;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import java.util.Scanner;
 
 public class Topic_07_Condition_Exercise {
+    WebDriver driver;
     Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Topic_07_Condition_Exercise obj = new webdriver.Topic_07_Condition_Exercise();
+        Topic_07_Condition_Exercise obj = new Topic_07_Condition_Exercise();
         //obj.TC_01();
         //obj.TC_02();
         obj.TC_03();
